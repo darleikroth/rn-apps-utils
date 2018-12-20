@@ -1,0 +1,10 @@
+{
+  "name": "rn-apps-utils",
+  "version": "1.0.0",
+  "description": "React native common utils",
+  "main": "index.js",
+  "repository": "git@github.com:darleikroth/rn-apps-utils.git",
+  "author": "Darlei Kroth <darlei@pm.me> (https://github.com/darleikroth)",
+  "license": "MIT",
+  "private": false
+}

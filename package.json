@@ -1,6 +1,6 @@
 {
   "name": "rn-apps-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React native common utils",
   "main": "index.js",
   "author": "Darlei Kroth <darlei@pm.me> (https://github.com/darleikroth)",

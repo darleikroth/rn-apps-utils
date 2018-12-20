@@ -18,5 +18,5 @@ yarn add rn-apps-utils
 [npm]: https://badge.fury.io/js/rn-apps-utils.svg
 [npm-url]: https://npmjs.com/package/rn-apps-utils
 
-[size]: https://packagephobia.now.sh/badge?p=rn-rn-apps-utils
-[size-url]: https://packagephobia.now.sh/result?p=rn-rn-apps-utils
+[size]: https://packagephobia.now.sh/badge?p=rn-apps-utils
+[size-url]: https://packagephobia.now.sh/result?p=rn-apps-utils

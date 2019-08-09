@@ -1,6 +1,20 @@
 {
   "name": "rn-apps-utils",
   "version": "1.1.0",
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "description": "React native common utils",
   "main": "index.js",
   "author": "Darlei Kroth <darlei@pm.me> (https://github.com/darleikroth)",
@@ -19,5 +33,13 @@
     "native",
     "common",
     "utils"
-  ]
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.0.3",
+    "standard-version": "^7.0.0"
+  }
 }
